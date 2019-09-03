@@ -9,7 +9,7 @@ Shell script to automate initial configuration of Debian servers
     ```
 2. Download shell script
      ```bash
-     wget https://www.example.com/debianconfig.sh
+     wget https://raw.githubusercontent.com/Jpatterson780/debianconfig/master/debianconfig.sh
      ```
 3. Modify permissions to make executable 
      ```bash
