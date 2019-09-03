@@ -8,4 +8,5 @@ usermod -aG sudo $uservar                    # Add specified user to sudo group
 
 apt-get install net-tools -y                 # Install net-tools (ifconfig)
 apt-get install curl -y                      # Install curl
-exit                                         # Exit from root user
+
+rm debianconfig.sh                           # Delete the file on exit

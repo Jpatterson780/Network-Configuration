@@ -19,3 +19,4 @@ Shell script to automate initial configuration of Debian servers
      ```bash
      ./debianconfig.sh
      ```
+5. Log off or terminate SSH session and log back in for changes to take effect 
