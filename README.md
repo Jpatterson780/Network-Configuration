@@ -13,7 +13,7 @@ Shell script to automate initial configuration of Debian servers
      ```
 3. Modify permissions to make executable
      ```bash
-     chmod -x debianconfig.sh
+     chmod +x debianconfig.sh
      ```
 4. Execute shell script
      ```bash
