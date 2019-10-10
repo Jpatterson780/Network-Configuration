@@ -1,7 +1,9 @@
-# debianconfig
-Shell script to automate initial configuration of Debian servers
+# Network Configuration
+Home/Office Network Configuration Documents including several shell scripts to automate tasks
 
-### Instructions
+## debainconfig.sh
+### Shell Script which automates initial configuration of Debian Servers 
+#### Instructions:
 1. Become root
     ```bash
     su
@@ -20,3 +22,10 @@ Shell script to automate initial configuration of Debian servers
      ./debianconfig.sh
      ```
 5. Log off or terminate SSH session and log back in for changes to take effect 
+
+## hosts and updatehosts.sh
+### Unix hosts file updated to reflect current state of home/office network. Use with pi-hole for local hostname resolution
+#### Instructions: 
+```bash
+wget https://raw.githubusercontent.com/Jpatterson780/Network-Configuration/master/updatehosts.sh -L
+```
