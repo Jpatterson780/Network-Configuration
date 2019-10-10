@@ -1,6 +1,8 @@
 # Network Configuration
 Home/Office Network Configuration Documents including several shell scripts to automate tasks
 
+
+
 ## debainconfig.sh
 ### Shell Script which automates initial configuration of Debian Servers 
 #### Instructions:
@@ -22,6 +24,8 @@ Home/Office Network Configuration Documents including several shell scripts to a
      ./debianconfig.sh
      ```
 5. Log off or terminate SSH session and log back in for changes to take effect 
+
+
 
 ## hosts and updatehosts.sh
 ### Unix hosts file updated to reflect current state of home/office network. Use with pi-hole for local hostname resolution
